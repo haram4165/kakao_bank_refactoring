@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*header*/
+.container{
+    width: 100vw;
+    height: 81px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.li-container{
+    width: 1080px;
+    height: 80px;
+    margin: auto;
+}
+
+.menu-container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    margin: 0 10px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.menu a{
+    display: block;
+    text-align: c;
+}
+
+
+
+
