@@ -24,7 +24,7 @@ li{
     list-style: none;
 }
 
-a{
+a{  
     text-decoration: none;
     color: #000;
 }
@@ -75,8 +75,10 @@ a{
 }
 
 .menu a:hover{
-    text-decoration: #000;
+    text-decoration: underline;
 }
+
+
 
 .menu-btn{
     display: inline-block;
@@ -144,7 +146,106 @@ a{
     color: #111;
 }
 
-/*section-750px*/
-.section-750{
+.store{
+    width: 380px;
+    height: 60px;
+    margin-left: 75px;
+    margin-top: 300px;
+}
+
+.store li{
+    float: left;
+    width: 170px;
+    height: 60px;
+    margin: 0 6px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.Google-store a{
+    position: relative;
+    left: 35px;
+    width: 80px;
+    line-height: 55px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.App-store a{
+    position: relative;
+    left: 35px;
+    width: 80px;
+    line-height: 55px;
+    font-size: 16.2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.store li a:hover{
+    text-decoration: underline;
+}
+
+.Google-store img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 10px;
+    top: 7px;
+    line-height: 10px;
+}
+
+.App-store img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 10px;
+    top: 7px;
+    line-height: 10px;
+}
+
+/*section1-Start*/
+.section1{
     height: 750px;
+}
+
+.section1-bgimg{
+    width: 473px;
+    height: 678px;
+    margin-left: 452px;
+    margin-top: 43px;
+}
+
+.section1-title{
+    width: 500px;
+    position: relative;
+    bottom: 500px;
+    left: 1040px;
+}
+
+.section1-content{
+    width: 500px;
+    position: relative;
+    bottom: 470px;
+    left: 1040px;
+}
+
+.section1-btn{
+    width: 258px;
+    height: 56px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    position: relative;
+    bottom: 440px;
+    left: 1040px;
+}
+
+.section1-btn a{
+    position: relative;
+    left: 36px;
+    top: 17px;
+    color: #333;
+}
+.section1-btn a:hover{
+    text-decoration: underline;
 }
