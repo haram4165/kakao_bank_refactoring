@@ -29,6 +29,11 @@ a{
     color: #000;
 }
 
+.section-btn{
+    background-color: #f6f6f6;
+    border-radius: 10px;
+}
+
 /*header*/
 
 .floating{
@@ -233,8 +238,6 @@ a{
 .section1-btn{
     width: 258px;
     height: 56px;
-    background-color: #f6f6f6;
-    border-radius: 10px;
     position: relative;
     bottom: 440px;
     left: 1040px;
@@ -248,4 +251,67 @@ a{
 }
 .section1-btn a:hover{
     text-decoration: underline;
+}
+
+/*section1 end*/
+
+/*section2*/
+.section2{
+    height: 750px;
+}
+
+.section2-title{
+    width: 500px;
+    position: relative;
+    top: 175px;
+    left: 480px;
+}
+
+.section2-content{
+    width: 574px;
+    position: relative;
+    top: 200px;
+    left: 480px;
+}
+
+.section2-btn-a{
+    float: left;
+    width: 150px;
+    height: 56px;
+    font-size: 15px;
+    line-height: 56px;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+    left: 480px;
+    top: 225px;
+}
+
+.section2-bg1{
+    width: 440px;
+    height: 104.52px;
+    position: relative;
+    left: 150px;
+    bottom: 275px;
+}
+
+.section2-bg2{
+    width: 409px;
+    height: 722px;
+    position: relative;
+    left: 300px;
+    bottom: 150px;
+}
+
+/*seciton3*/
+.section3{
+    height: 750px;
+}
+
+.section3-bg{
+    width: 459px;
+    height: 607px;
+    position: relative;
+    left: 470px;
+    top: 80px;
 }
